@@ -21,7 +21,7 @@ router.get('/seedplans', (req, res) => {
 
 let workoutSeeder = [
     {
-        day: new Date(Date.now()),
+        day: "Monday",
         exercises: [
             {
                 type: "Upper-Body",
@@ -33,7 +33,7 @@ let workoutSeeder = [
         ]
     },
     {
-        day: new Date(Date.now()),
+        day: "Tuesday",
         exercises: [
             {
                 type: "Upper-Body",
@@ -45,7 +45,7 @@ let workoutSeeder = [
         ]
     },
     {
-        day: new Date(Date.now()),
+        day: "Wednesday",
         exercises: [
             {
                 type: "Upper-Body",
@@ -57,7 +57,7 @@ let workoutSeeder = [
         ]
     },
     {
-        day: new Date(Date.now()),
+        day: "Thursday",
         exercises: [
             {
                 type: "Upper-Body",
@@ -69,7 +69,7 @@ let workoutSeeder = [
         ]
     },
     {
-        day: new Date(Date.now()),
+        day: "Friday",
         exercises: [
             {
                 type: "Cardio",
