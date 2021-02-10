@@ -1,4 +1,4 @@
 module.exports = {
-    Week: require("./Week"),
+    // Week: require("./Week"),
     Workout: require("./Workout")
 }
